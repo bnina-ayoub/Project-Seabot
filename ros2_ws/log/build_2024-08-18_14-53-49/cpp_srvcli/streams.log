@@ -1,0 +1,28 @@
+[0.126s] Invoking command in '/home/bninaos/Documents/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/bninaos/Documents/ros2_ws/install/seabot_interfaces:/home/bninaos/microros/install/micro_ros_setup:/home/bninaos/microros/install/micro_ros_agent:/home/bninaos/microros/install/micro_ros_msgs:/home/bninaos/Documents/ros2_ws/install/cpp_srvcli:/home/bninaos/Documents/ros2_ws/install/cpp_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/bninaos/Documents/ros2_ws/install/seabot_interfaces/lib:/home/bninaos/microros/install/micro_ros_agent/lib:/home/bninaos/microros/install/micro_ros_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/bninaos/Documents/ros2_ws/build/cpp_srvcli -- -j8 -l8
+[0.316s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/Server.cpp.o[0m
+[0.401s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.432s] [ 75%] Built target client
+[2.640s] [100%] [32m[1mLinking CXX executable server[0m
+[2.771s] [100%] Built target server
+[2.779s] Invoked command in '/home/bninaos/Documents/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/bninaos/Documents/ros2_ws/install/seabot_interfaces:/home/bninaos/microros/install/micro_ros_setup:/home/bninaos/microros/install/micro_ros_agent:/home/bninaos/microros/install/micro_ros_msgs:/home/bninaos/Documents/ros2_ws/install/cpp_srvcli:/home/bninaos/Documents/ros2_ws/install/cpp_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/bninaos/Documents/ros2_ws/install/seabot_interfaces/lib:/home/bninaos/microros/install/micro_ros_agent/lib:/home/bninaos/microros/install/micro_ros_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/bninaos/Documents/ros2_ws/build/cpp_srvcli -- -j8 -l8
+[2.799s] Invoking command in '/home/bninaos/Documents/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/bninaos/Documents/ros2_ws/install/seabot_interfaces:/home/bninaos/microros/install/micro_ros_setup:/home/bninaos/microros/install/micro_ros_agent:/home/bninaos/microros/install/micro_ros_msgs:/home/bninaos/Documents/ros2_ws/install/cpp_srvcli:/home/bninaos/Documents/ros2_ws/install/cpp_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/bninaos/Documents/ros2_ws/install/seabot_interfaces/lib:/home/bninaos/microros/install/micro_ros_agent/lib:/home/bninaos/microros/install/micro_ros_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/bninaos/Documents/ros2_ws/build/cpp_srvcli
+[2.827s] -- Install configuration: ""
+[2.852s] -- Installing: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[2.854s] -- Set runtime path of "/home/bninaos/Documents/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[2.896s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[2.896s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[2.896s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[2.897s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[2.897s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[2.897s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[2.897s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[2.897s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[2.897s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[2.898s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[2.898s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[2.898s] -- Installing: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[2.898s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[2.898s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[2.898s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[2.898s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[2.901s] Invoked command in '/home/bninaos/Documents/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/bninaos/Documents/ros2_ws/install/seabot_interfaces:/home/bninaos/microros/install/micro_ros_setup:/home/bninaos/microros/install/micro_ros_agent:/home/bninaos/microros/install/micro_ros_msgs:/home/bninaos/Documents/ros2_ws/install/cpp_srvcli:/home/bninaos/Documents/ros2_ws/install/cpp_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/bninaos/Documents/ros2_ws/install/seabot_interfaces/lib:/home/bninaos/microros/install/micro_ros_agent/lib:/home/bninaos/microros/install/micro_ros_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/bninaos/Documents/ros2_ws/build/cpp_srvcli

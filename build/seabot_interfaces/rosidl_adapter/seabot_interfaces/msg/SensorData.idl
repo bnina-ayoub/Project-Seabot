@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from seabot_interfaces/src/msg/SensorData.msg
+// generated code does not contain a copyright notice
+
+
+module seabot_interfaces {
+  module msg {
+    struct SensorData {
+      string data;
+
+      double temp;
+    };
+  };
+};

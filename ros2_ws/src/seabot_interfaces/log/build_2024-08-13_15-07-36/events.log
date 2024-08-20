@@ -1,0 +1,495 @@
+[0.000000] (-) TimerEvent: {}
+[0.000208] (seabot_interfaces) JobQueued: {'identifier': 'seabot_interfaces', 'dependencies': OrderedDict()}
+[0.000360] (seabot_interfaces) JobStarted: {'identifier': 'seabot_interfaces'}
+[0.004702] (seabot_interfaces) JobProgress: {'identifier': 'seabot_interfaces', 'progress': 'cmake'}
+[0.004816] (seabot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/bninaos/seabot_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/bninaos/seabot_interfaces/install/seabot_interfaces'], 'cwd': '/home/bninaos/seabot_interfaces/build/seabot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bninaos'), ('LC_TIME', 'ar_TN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bninaos'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1132'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=903ea62c437e35bcd1f84cc766bb3972'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bninaos'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bninaos'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bninaos-HP-Laptop-15-dw3xxx:@/tmp/.ICE-unix/1132,unix/bninaos-HP-Laptop-15-dw3xxx:/tmp/.ICE-unix/1132'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f0b137e6_a98c_45cd_a3f5_acb682c71716'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PSZDS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.365'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bninaos/seabot_interfaces/build/seabot_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=903ea62c437e35bcd1f84cc766bb3972'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.045883] (seabot_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.095214] (seabot_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.099922] (seabot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.100009] (-) TimerEvent: {}
+[0.181297] (seabot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.186968] (seabot_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.187052] (seabot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.187300] (seabot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.189263] (seabot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.200110] (-) TimerEvent: {}
+[0.253083] (seabot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.258129] (seabot_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.258403] (seabot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.258724] (seabot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.300241] (-) TimerEvent: {}
+[0.400690] (-) TimerEvent: {}
+[0.501175] (-) TimerEvent: {}
+[0.601613] (-) TimerEvent: {}
+[0.659383] (seabot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.701795] (-) TimerEvent: {}
+[0.802223] (-) TimerEvent: {}
+[0.902686] (-) TimerEvent: {}
+[1.003099] (-) TimerEvent: {}
+[1.040114] (seabot_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.103228] (-) TimerEvent: {}
+[1.203613] (-) TimerEvent: {}
+[1.304091] (-) TimerEvent: {}
+[1.404469] (-) TimerEvent: {}
+[1.504818] (-) TimerEvent: {}
+[1.605309] (-) TimerEvent: {}
+[1.705719] (-) TimerEvent: {}
+[1.806123] (-) TimerEvent: {}
+[1.906521] (-) TimerEvent: {}
+[2.006910] (-) TimerEvent: {}
+[2.107326] (-) TimerEvent: {}
+[2.207807] (-) TimerEvent: {}
+[2.308227] (-) TimerEvent: {}
+[2.408686] (-) TimerEvent: {}
+[2.509180] (-) TimerEvent: {}
+[2.609582] (-) TimerEvent: {}
+[2.710044] (-) TimerEvent: {}
+[2.810442] (-) TimerEvent: {}
+[2.910832] (-) TimerEvent: {}
+[2.911283] (seabot_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.010995] (-) TimerEvent: {}
+[3.111266] (-) TimerEvent: {}
+[3.211745] (-) TimerEvent: {}
+[3.312165] (-) TimerEvent: {}
+[3.412663] (-) TimerEvent: {}
+[3.513160] (-) TimerEvent: {}
+[3.613647] (-) TimerEvent: {}
+[3.685292] (seabot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.713764] (-) TimerEvent: {}
+[3.814105] (-) TimerEvent: {}
+[3.914597] (-) TimerEvent: {}
+[4.015096] (-) TimerEvent: {}
+[4.052363] (seabot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.115245] (-) TimerEvent: {}
+[4.215750] (-) TimerEvent: {}
+[4.316192] (-) TimerEvent: {}
+[4.416676] (-) TimerEvent: {}
+[4.435738] (seabot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.516818] (-) TimerEvent: {}
+[4.617195] (-) TimerEvent: {}
+[4.717678] (-) TimerEvent: {}
+[4.818082] (-) TimerEvent: {}
+[4.918454] (-) TimerEvent: {}
+[5.018834] (-) TimerEvent: {}
+[5.119322] (-) TimerEvent: {}
+[5.219721] (-) TimerEvent: {}
+[5.320108] (-) TimerEvent: {}
+[5.420571] (-) TimerEvent: {}
+[5.521064] (-) TimerEvent: {}
+[5.621433] (-) TimerEvent: {}
+[5.721729] (-) TimerEvent: {}
+[5.822119] (-) TimerEvent: {}
+[5.922519] (-) TimerEvent: {}
+[6.022887] (-) TimerEvent: {}
+[6.123365] (-) TimerEvent: {}
+[6.223857] (-) TimerEvent: {}
+[6.324365] (-) TimerEvent: {}
+[6.424834] (-) TimerEvent: {}
+[6.525341] (-) TimerEvent: {}
+[6.625764] (-) TimerEvent: {}
+[6.726183] (-) TimerEvent: {}
+[6.826676] (-) TimerEvent: {}
+[6.832713] (seabot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.926979] (-) TimerEvent: {}
+[7.027496] (-) TimerEvent: {}
+[7.127984] (-) TimerEvent: {}
+[7.228482] (-) TimerEvent: {}
+[7.328964] (-) TimerEvent: {}
+[7.429490] (-) TimerEvent: {}
+[7.530004] (-) TimerEvent: {}
+[7.630492] (-) TimerEvent: {}
+[7.730980] (-) TimerEvent: {}
+[7.831389] (-) TimerEvent: {}
+[7.931787] (-) TimerEvent: {}
+[8.032269] (-) TimerEvent: {}
+[8.132765] (-) TimerEvent: {}
+[8.233278] (-) TimerEvent: {}
+[8.333665] (-) TimerEvent: {}
+[8.434012] (-) TimerEvent: {}
+[8.534330] (-) TimerEvent: {}
+[8.634710] (-) TimerEvent: {}
+[8.735180] (-) TimerEvent: {}
+[8.835585] (-) TimerEvent: {}
+[8.936069] (-) TimerEvent: {}
+[8.946510] (seabot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[9.036288] (-) TimerEvent: {}
+[9.136725] (-) TimerEvent: {}
+[9.237243] (-) TimerEvent: {}
+[9.337629] (-) TimerEvent: {}
+[9.438035] (-) TimerEvent: {}
+[9.538498] (-) TimerEvent: {}
+[9.638832] (-) TimerEvent: {}
+[9.654759] (seabot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.739019] (-) TimerEvent: {}
+[9.839378] (-) TimerEvent: {}
+[9.939857] (-) TimerEvent: {}
+[10.040190] (-) TimerEvent: {}
+[10.140637] (-) TimerEvent: {}
+[10.191153] (seabot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.240827] (-) TimerEvent: {}
+[10.296968] (seabot_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[10.341035] (-) TimerEvent: {}
+[10.361125] (seabot_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[10.441146] (-) TimerEvent: {}
+[10.541434] (-) TimerEvent: {}
+[10.641843] (-) TimerEvent: {}
+[10.742333] (-) TimerEvent: {}
+[10.750941] (seabot_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[10.752931] (seabot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[10.753070] (seabot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[10.753185] (seabot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[10.765575] (seabot_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[10.842464] (-) TimerEvent: {}
+[10.942935] (-) TimerEvent: {}
+[11.043419] (-) TimerEvent: {}
+[11.143969] (-) TimerEvent: {}
+[11.244373] (-) TimerEvent: {}
+[11.258480] (seabot_interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[11.260108] (seabot_interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/bninaos/seabot_interfaces/build/seabot_interfaces/rosidl_generator_c>;$<BUILD_INTERFACE:/home/bninaos/seabot_interfaces/build/seabot_interfaces/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/bninaos/seabot_interfaces/build/seabot_interfaces/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/bninaos/seabot_interfaces/build/seabot_interfaces/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/bninaos/seabot_interfaces/build/seabot_interfaces/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/bninaos/seabot_interfaces/build/seabot_interfaces/rosidl_typesupport_introspection_cpp>;/home/bninaos/seabot_interfaces/build/seabot_interfaces/rosidl_generator_c;/home/bninaos/seabot_interfaces/build/seabot_interfaces/rosidl_generator_py\n'}
+[11.260371] (seabot_interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[11.273796] (seabot_interfaces) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[11.299543] (seabot_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.322825] (seabot_interfaces) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[11.344556] (-) TimerEvent: {}
+[11.356349] (seabot_interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[11.356588] (seabot_interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[11.372599] (seabot_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.444723] (-) TimerEvent: {}
+[11.545124] (-) TimerEvent: {}
+[11.592836] (seabot_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.623619] (seabot_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[11.625125] (seabot_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/bninaos/seabot_interfaces/build/seabot_interfaces\n'}
+[11.630235] (seabot_interfaces) CommandEnded: {'returncode': 0}
+[11.630561] (seabot_interfaces) JobProgress: {'identifier': 'seabot_interfaces', 'progress': 'build'}
+[11.630580] (seabot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bninaos/seabot_interfaces/build/seabot_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/bninaos/seabot_interfaces/build/seabot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bninaos'), ('LC_TIME', 'ar_TN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bninaos'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1132'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=903ea62c437e35bcd1f84cc766bb3972'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bninaos'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bninaos'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bninaos-HP-Laptop-15-dw3xxx:@/tmp/.ICE-unix/1132,unix/bninaos-HP-Laptop-15-dw3xxx:/tmp/.ICE-unix/1132'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f0b137e6_a98c_45cd_a3f5_acb682c71716'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PSZDS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.365'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bninaos/seabot_interfaces/build/seabot_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=903ea62c437e35bcd1f84cc766bb3972'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.645213] (-) TimerEvent: {}
+[11.657482] (seabot_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[11.664046] (seabot_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[11.670047] (seabot_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_seabot_interfaces\n'}
+[11.745363] (-) TimerEvent: {}
+[11.805190] (seabot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[11.805543] (seabot_interfaces) StdoutLine: {'line': b'creating seabot_interfaces.egg-info\n'}
+[11.805660] (seabot_interfaces) StdoutLine: {'line': b'writing seabot_interfaces.egg-info/PKG-INFO\n'}
+[11.805878] (seabot_interfaces) StdoutLine: {'line': b'writing dependency_links to seabot_interfaces.egg-info/dependency_links.txt\n'}
+[11.805983] (seabot_interfaces) StdoutLine: {'line': b'writing top-level names to seabot_interfaces.egg-info/top_level.txt\n'}
+[11.806046] (seabot_interfaces) StdoutLine: {'line': b"writing manifest file 'seabot_interfaces.egg-info/SOURCES.txt'\n"}
+[11.807263] (seabot_interfaces) StdoutLine: {'line': b"reading manifest file 'seabot_interfaces.egg-info/SOURCES.txt'\n"}
+[11.807677] (seabot_interfaces) StdoutLine: {'line': b"writing manifest file 'seabot_interfaces.egg-info/SOURCES.txt'\n"}
+[11.826255] (seabot_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_seabot_interfaces_egg\n'}
+[11.845437] (-) TimerEvent: {}
+[11.945724] (-) TimerEvent: {}
+[12.046116] (-) TimerEvent: {}
+[12.146596] (-) TimerEvent: {}
+[12.247098] (-) TimerEvent: {}
+[12.347571] (-) TimerEvent: {}
+[12.447948] (-) TimerEvent: {}
+[12.548410] (-) TimerEvent: {}
+[12.648763] (-) TimerEvent: {}
+[12.749212] (-) TimerEvent: {}
+[12.838364] (seabot_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/seabot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/seabot_interfaces/msg/detail/sensor_data__functions.c.o\x1b[0m\n'}
+[12.838517] (seabot_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/seabot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/seabot_interfaces/msg/detail/feedback__functions.c.o\x1b[0m\n'}
+[12.838564] (seabot_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/seabot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/seabot_interfaces/srv/detail/service__functions.c.o\x1b[0m\n'}
+[12.849292] (-) TimerEvent: {}
+[12.894459] (seabot_interfaces) StdoutLine: {'line': b'[ 10%] Built target seabot_interfaces__cpp\n'}
+[12.901397] (seabot_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.901538] (seabot_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.901585] (seabot_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[12.949446] (-) TimerEvent: {}
+[13.049827] (-) TimerEvent: {}
+[13.150084] (-) TimerEvent: {}
+[13.250393] (-) TimerEvent: {}
+[13.350767] (-) TimerEvent: {}
+[13.358742] (seabot_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/seabot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/seabot_interfaces/msg/sensor_data__type_support.cpp.o\x1b[0m\n'}
+[13.358939] (seabot_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/seabot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/seabot_interfaces/msg/feedback__type_support.cpp.o\x1b[0m\n'}
+[13.359013] (seabot_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/seabot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/seabot_interfaces/srv/service__type_support.cpp.o\x1b[0m\n'}
+[13.450865] (-) TimerEvent: {}
+[13.480279] (seabot_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/seabot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/seabot_interfaces/msg/detail/feedback__type_support.cpp.o\x1b[0m\n'}
+[13.529986] (seabot_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/seabot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/seabot_interfaces/msg/detail/dds_fastrtps/feedback__type_support.cpp.o\x1b[0m\n'}
+[13.550952] (-) TimerEvent: {}
+[13.635142] (seabot_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/seabot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/seabot_interfaces/msg/detail/sensor_data__type_support.cpp.o\x1b[0m\n'}
+[13.651149] (-) TimerEvent: {}
+[13.726648] (seabot_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking C shared library libseabot_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[13.727978] (seabot_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/seabot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/seabot_interfaces/msg/detail/dds_fastrtps/sensor_data__type_support.cpp.o\x1b[0m\n'}
+[13.751263] (-) TimerEvent: {}
+[13.830044] (seabot_interfaces) StdoutLine: {'line': b'[ 34%] Built target seabot_interfaces__rosidl_generator_c\n'}
+[13.838491] (seabot_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/seabot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/seabot_interfaces/srv/detail/dds_fastrtps/service__type_support.cpp.o\x1b[0m\n'}
+[13.851372] (-) TimerEvent: {}
+[13.951629] (-) TimerEvent: {}
+[14.032739] (seabot_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.051751] (-) TimerEvent: {}
+[14.089962] (seabot_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/seabot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/seabot_interfaces/srv/detail/service__type_support.cpp.o\x1b[0m\n'}
+[14.136317] (seabot_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libseabot_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[14.151872] (-) TimerEvent: {}
+[14.175740] (seabot_interfaces) StdoutLine: {'line': b'[ 42%] Built target seabot_interfaces__rosidl_typesupport_cpp\n'}
+[14.183193] (seabot_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[14.251990] (-) TimerEvent: {}
+[14.352298] (-) TimerEvent: {}
+[14.452571] (-) TimerEvent: {}
+[14.464071] (seabot_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[14.549532] (seabot_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/seabot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/seabot_interfaces/msg/detail/sensor_data__type_support_c.cpp.o\x1b[0m\n'}
+[14.549720] (seabot_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/seabot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/seabot_interfaces/srv/detail/service__type_support_c.cpp.o\x1b[0m\n'}
+[14.549792] (seabot_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/seabot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/seabot_interfaces/msg/detail/feedback__type_support_c.cpp.o\x1b[0m\n'}
+[14.552670] (-) TimerEvent: {}
+[14.569988] (seabot_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libseabot_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[14.652800] (-) TimerEvent: {}
+[14.685906] (seabot_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/seabot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/seabot_interfaces/msg/detail/sensor_data__type_support.c.o\x1b[0m\n'}
+[14.686123] (seabot_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/seabot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/seabot_interfaces/msg/detail/feedback__type_support.c.o\x1b[0m\n'}
+[14.705459] (seabot_interfaces) StdoutLine: {'line': b'[ 59%] Built target seabot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[14.716554] (seabot_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/seabot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/seabot_interfaces/srv/detail/service__type_support.c.o\x1b[0m\n'}
+[14.752928] (-) TimerEvent: {}
+[14.818328] (seabot_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking C shared library libseabot_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[14.853061] (-) TimerEvent: {}
+[14.853361] (seabot_interfaces) StdoutLine: {'line': b'[ 63%] Built target seabot_interfaces__rosidl_typesupport_introspection_c\n'}
+[14.886483] (seabot_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/seabot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/seabot_interfaces/msg/feedback__type_support.cpp.o\x1b[0m\n'}
+[14.886705] (seabot_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/seabot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/seabot_interfaces/msg/sensor_data__type_support.cpp.o\x1b[0m\n'}
+[14.886895] (seabot_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/seabot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/seabot_interfaces/srv/service__type_support.cpp.o\x1b[0m\n'}
+[14.953152] (-) TimerEvent: {}
+[14.985420] (seabot_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libseabot_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[15.009828] (seabot_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libseabot_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[15.010041] (seabot_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libseabot_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[15.039504] (seabot_interfaces) StdoutLine: {'line': b'[ 76%] Built target seabot_interfaces__rosidl_typesupport_c\n'}
+[15.053363] (-) TimerEvent: {}
+[15.111952] (seabot_interfaces) StdoutLine: {'line': b'[ 76%] Built target seabot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[15.112487] (seabot_interfaces) StdoutLine: {'line': b'[ 76%] Built target seabot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[15.126147] (seabot_interfaces) StdoutLine: {'line': b'[ 76%] Built target seabot_interfaces\n'}
+[15.140260] (seabot_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[15.153449] (-) TimerEvent: {}
+[15.253769] (-) TimerEvent: {}
+[15.354151] (-) TimerEvent: {}
+[15.454518] (-) TimerEvent: {}
+[15.554953] (-) TimerEvent: {}
+[15.655195] (-) TimerEvent: {}
+[15.755514] (-) TimerEvent: {}
+[15.765535] (seabot_interfaces) StdoutLine: {'line': b'[ 78%] Built target seabot_interfaces__py\n'}
+[15.778980] (seabot_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/seabot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/seabot_interfaces/srv/_service_s.c.o\x1b[0m\n'}
+[15.779127] (seabot_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/seabot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/seabot_interfaces/msg/_feedback_s.c.o\x1b[0m\n'}
+[15.779180] (seabot_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/seabot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/seabot_interfaces/msg/_sensor_data_s.c.o\x1b[0m\n'}
+[15.855666] (-) TimerEvent: {}
+[15.956145] (-) TimerEvent: {}
+[16.056631] (-) TimerEvent: {}
+[16.157047] (-) TimerEvent: {}
+[16.257447] (-) TimerEvent: {}
+[16.357853] (-) TimerEvent: {}
+[16.458235] (-) TimerEvent: {}
+[16.558608] (-) TimerEvent: {}
+[16.658986] (-) TimerEvent: {}
+[16.759502] (-) TimerEvent: {}
+[16.859964] (-) TimerEvent: {}
+[16.960433] (-) TimerEvent: {}
+[17.060841] (-) TimerEvent: {}
+[17.161239] (-) TimerEvent: {}
+[17.261625] (-) TimerEvent: {}
+[17.362107] (-) TimerEvent: {}
+[17.462492] (-) TimerEvent: {}
+[17.562874] (-) TimerEvent: {}
+[17.663273] (-) TimerEvent: {}
+[17.763643] (-) TimerEvent: {}
+[17.765284] (seabot_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/seabot_interfaces/libseabot_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[17.801609] (seabot_interfaces) StdoutLine: {'line': b'[ 87%] Built target seabot_interfaces__rosidl_generator_py\n'}
+[17.817858] (seabot_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/seabot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/seabot_interfaces/_seabot_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[17.818027] (seabot_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/seabot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/seabot_interfaces/_seabot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[17.818100] (seabot_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/seabot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/seabot_interfaces/_seabot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[17.863761] (-) TimerEvent: {}
+[17.911143] (seabot_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/seabot_interfaces/seabot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[17.911297] (seabot_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/seabot_interfaces/seabot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[17.911357] (seabot_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/seabot_interfaces/seabot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[17.934387] (seabot_interfaces) StdoutLine: {'line': b'[100%] Built target seabot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[17.934572] (seabot_interfaces) StdoutLine: {'line': b'[100%] Built target seabot_interfaces__rosidl_typesupport_c__pyext\n'}
+[17.934641] (seabot_interfaces) StdoutLine: {'line': b'[100%] Built target seabot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[17.943984] (seabot_interfaces) CommandEnded: {'returncode': 0}
+[17.963853] (-) TimerEvent: {}
+[18.002400] (seabot_interfaces) JobProgress: {'identifier': 'seabot_interfaces', 'progress': 'install'}
+[18.009046] (seabot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bninaos/seabot_interfaces/build/seabot_interfaces'], 'cwd': '/home/bninaos/seabot_interfaces/build/seabot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bninaos'), ('LC_TIME', 'ar_TN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bninaos'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1132'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=903ea62c437e35bcd1f84cc766bb3972'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bninaos'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bninaos'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bninaos-HP-Laptop-15-dw3xxx:@/tmp/.ICE-unix/1132,unix/bninaos-HP-Laptop-15-dw3xxx:/tmp/.ICE-unix/1132'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f0b137e6_a98c_45cd_a3f5_acb682c71716'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PSZDS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.365'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bninaos/seabot_interfaces/build/seabot_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=903ea62c437e35bcd1f84cc766bb3972'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[18.016437] (seabot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.016551] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/ament_index/resource_index/rosidl_interfaces/seabot_interfaces\n'}
+[18.016630] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces\n'}
+[18.016684] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg\n'}
+[18.016751] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[18.016803] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/feedback.h\n'}
+[18.016862] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/sensor_data.h\n'}
+[18.016904] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail\n'}
+[18.016964] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail/feedback__type_support.h\n'}
+[18.017008] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail/sensor_data__functions.c\n'}
+[18.017067] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail/sensor_data__type_support.h\n'}
+[18.017111] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail/feedback__functions.h\n'}
+[18.017170] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail/feedback__functions.c\n'}
+[18.017227] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail/feedback__struct.h\n'}
+[18.017304] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail/sensor_data__struct.h\n'}
+[18.017403] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail/sensor_data__functions.h\n'}
+[18.017467] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/srv\n'}
+[18.017518] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/srv/service.h\n'}
+[18.017573] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/srv/detail\n'}
+[18.017628] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/srv/detail/service__type_support.h\n'}
+[18.017684] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/srv/detail/service__functions.h\n'}
+[18.017739] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/srv/detail/service__functions.c\n'}
+[18.017794] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/srv/detail/service__struct.h\n'}
+[18.017872] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/environment/library_path.sh\n'}
+[18.017945] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/environment/library_path.dsv\n'}
+[18.018042] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/lib/libseabot_interfaces__rosidl_generator_c.so\n'}
+[18.018411] (seabot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bninaos/seabot_interfaces/install/seabot_interfaces/lib/libseabot_interfaces__rosidl_generator_c.so" to ""\n'}
+[18.018452] (seabot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces\n'}
+[18.018491] (seabot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg\n'}
+[18.018544] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[18.018614] (seabot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail\n'}
+[18.018655] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail/feedback__rosidl_typesupport_fastrtps_c.h\n'}
+[18.018695] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail/sensor_data__rosidl_typesupport_fastrtps_c.h\n'}
+[18.018734] (seabot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/srv\n'}
+[18.018773] (seabot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/srv/detail\n'}
+[18.018829] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/srv/detail/service__rosidl_typesupport_fastrtps_c.h\n'}
+[18.018868] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/lib/libseabot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[18.018920] (seabot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bninaos/seabot_interfaces/install/seabot_interfaces/lib/libseabot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[18.018981] (seabot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces\n'}
+[18.019021] (seabot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg\n'}
+[18.019061] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[18.019114] (seabot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail\n'}
+[18.019174] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail/sensor_data__rosidl_typesupport_introspection_c.h\n'}
+[18.019216] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail/feedback__type_support.c\n'}
+[18.019256] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail/sensor_data__type_support.c\n'}
+[18.019312] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail/feedback__rosidl_typesupport_introspection_c.h\n'}
+[18.019352] (seabot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/srv\n'}
+[18.019390] (seabot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/srv/detail\n'}
+[18.019428] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/srv/detail/service__rosidl_typesupport_introspection_c.h\n'}
+[18.019485] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/srv/detail/service__type_support.c\n'}
+[18.019524] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/lib/libseabot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[18.019574] (seabot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bninaos/seabot_interfaces/install/seabot_interfaces/lib/libseabot_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[18.019626] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/lib/libseabot_interfaces__rosidl_typesupport_c.so\n'}
+[18.019748] (seabot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bninaos/seabot_interfaces/install/seabot_interfaces/lib/libseabot_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[18.019810] (seabot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces\n'}
+[18.019849] (seabot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg\n'}
+[18.019890] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/sensor_data.hpp\n'}
+[18.019949] (seabot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail\n'}
+[18.019988] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail/feedback__struct.hpp\n'}
+[18.020028] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail/sensor_data__struct.hpp\n'}
+[18.020086] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail/sensor_data__traits.hpp\n'}
+[18.020128] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail/feedback__traits.hpp\n'}
+[18.020186] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail/feedback__builder.hpp\n'}
+[18.020239] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail/sensor_data__builder.hpp\n'}
+[18.020279] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/feedback.hpp\n'}
+[18.020331] (seabot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/srv\n'}
+[18.020394] (seabot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/srv/detail\n'}
+[18.020441] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/srv/detail/service__struct.hpp\n'}
+[18.020480] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/srv/detail/service__traits.hpp\n'}
+[18.020519] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/srv/detail/service__builder.hpp\n'}
+[18.020557] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/srv/service.hpp\n'}
+[18.020608] (seabot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces\n'}
+[18.020669] (seabot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg\n'}
+[18.020708] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[18.020748] (seabot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail\n'}
+[18.020787] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail/sensor_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.020825] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail/feedback__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.020883] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail/dds_fastrtps\n'}
+[18.020923] (seabot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/srv\n'}
+[18.020963] (seabot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/srv/detail\n'}
+[18.021001] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/srv/detail/service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.021039] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/srv/detail/dds_fastrtps\n'}
+[18.021098] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/lib/libseabot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[18.021146] (seabot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bninaos/seabot_interfaces/install/seabot_interfaces/lib/libseabot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[18.021186] (seabot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces\n'}
+[18.021234] (seabot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg\n'}
+[18.021288] (seabot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail\n'}
+[18.021352] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail/sensor_data__type_support.cpp\n'}
+[18.021392] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail/feedback__type_support.cpp\n'}
+[18.021433] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail/sensor_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.021473] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/msg/detail/feedback__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.021526] (seabot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/srv\n'}
+[18.021586] (seabot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/srv/detail\n'}
+[18.021623] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/srv/detail/service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.021659] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/include/seabot_interfaces/seabot_interfaces/srv/detail/service__type_support.cpp\n'}
+[18.021694] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/lib/libseabot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[18.021750] (seabot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bninaos/seabot_interfaces/install/seabot_interfaces/lib/libseabot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[18.021791] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/lib/libseabot_interfaces__rosidl_typesupport_cpp.so\n'}
+[18.021886] (seabot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bninaos/seabot_interfaces/install/seabot_interfaces/lib/libseabot_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[18.021939] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/environment/pythonpath.sh\n'}
+[18.021994] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/environment/pythonpath.dsv\n'}
+[18.022046] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces-0.0.0-py3.10.egg-info\n'}
+[18.022126] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[18.022178] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[18.022231] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[18.022282] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[18.022342] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces\n'}
+[18.022393] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/seabot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.022450] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/_seabot_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[18.022514] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/libseabot_interfaces__rosidl_generator_py.so\n'}
+[18.022580] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/__init__.py\n'}
+[18.022632] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/msg\n'}
+[18.022685] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/msg/_feedback_s.c\n'}
+[18.022738] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/msg/__init__.py\n'}
+[18.022791] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/msg/_feedback.py\n'}
+[18.022845] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/msg/_sensor_data_s.c\n'}
+[18.022901] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/msg/_sensor_data.py\n'}
+[18.022962] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/srv\n'}
+[18.023021] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/srv/__init__.py\n'}
+[18.023069] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/srv/_service.py\n'}
+[18.023121] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/srv/_service_s.c\n'}
+[18.023158] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/_seabot_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[18.023211] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/seabot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.023261] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/_seabot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[18.023315] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/seabot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.047389] (seabot_interfaces) StdoutLine: {'line': b"Listing '/home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces'...\n"}
+[18.047505] (seabot_interfaces) StdoutLine: {'line': b"Compiling '/home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/__init__.py'...\n"}
+[18.047547] (seabot_interfaces) StdoutLine: {'line': b"Listing '/home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/msg'...\n"}
+[18.047582] (seabot_interfaces) StdoutLine: {'line': b"Compiling '/home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/msg/__init__.py'...\n"}
+[18.047617] (seabot_interfaces) StdoutLine: {'line': b"Compiling '/home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/msg/_feedback.py'...\n"}
+[18.047650] (seabot_interfaces) StdoutLine: {'line': b"Compiling '/home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/msg/_sensor_data.py'...\n"}
+[18.047683] (seabot_interfaces) StdoutLine: {'line': b"Listing '/home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/srv'...\n"}
+[18.047717] (seabot_interfaces) StdoutLine: {'line': b"Compiling '/home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/srv/__init__.py'...\n"}
+[18.047751] (seabot_interfaces) StdoutLine: {'line': b"Compiling '/home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/srv/_service.py'...\n"}
+[18.050593] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/seabot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.050819] (seabot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/seabot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[18.050896] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/seabot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.050978] (seabot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/seabot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[18.051035] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/seabot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.051182] (seabot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bninaos/seabot_interfaces/install/seabot_interfaces/local/lib/python3.10/dist-packages/seabot_interfaces/seabot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[18.051260] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/lib/libseabot_interfaces__rosidl_generator_py.so\n'}
+[18.051384] (seabot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bninaos/seabot_interfaces/install/seabot_interfaces/lib/libseabot_interfaces__rosidl_generator_py.so" to ""\n'}
+[18.051461] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/msg/Feedback.idl\n'}
+[18.051532] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/msg/SensorData.idl\n'}
+[18.051581] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/srv/Service.idl\n'}
+[18.051634] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/msg/Feedback.msg\n'}
+[18.051696] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/msg/SensorData.msg\n'}
+[18.051757] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/srv/Service.srv\n'}
+[18.051808] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/srv/Service_Request.msg\n'}
+[18.051861] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/srv/Service_Response.msg\n'}
+[18.051931] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/ament_index/resource_index/package_run_dependencies/seabot_interfaces\n'}
+[18.052016] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/ament_index/resource_index/parent_prefix_path/seabot_interfaces\n'}
+[18.052124] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/environment/ament_prefix_path.sh\n'}
+[18.052175] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/environment/ament_prefix_path.dsv\n'}
+[18.052226] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/environment/path.sh\n'}
+[18.052285] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/environment/path.dsv\n'}
+[18.052350] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/local_setup.bash\n'}
+[18.052413] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/local_setup.sh\n'}
+[18.052478] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/local_setup.zsh\n'}
+[18.052546] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/local_setup.dsv\n'}
+[18.052607] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/package.dsv\n'}
+[18.052690] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/ament_index/resource_index/packages/seabot_interfaces\n'}
+[18.052778] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/cmake/export_seabot_interfaces__rosidl_generator_cExport.cmake\n'}
+[18.052850] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/cmake/export_seabot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[18.052924] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/cmake/export_seabot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[18.052996] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/cmake/export_seabot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[18.053071] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/cmake/seabot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[18.053139] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/cmake/seabot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[18.053328] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/cmake/seabot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[18.053411] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/cmake/seabot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[18.053486] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/cmake/export_seabot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[18.053561] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/cmake/export_seabot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[18.053631] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/cmake/export_seabot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[18.053704] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/cmake/seabot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[18.053773] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/cmake/seabot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[18.053849] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/cmake/seabot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[18.053917] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/cmake/seabot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[18.053990] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/cmake/export_seabot_interfaces__rosidl_generator_pyExport.cmake\n'}
+[18.054058] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/cmake/export_seabot_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[18.054126] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[18.054190] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[18.054255] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[18.054324] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[18.054389] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[18.054451] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[18.054519] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[18.054584] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/cmake/seabot_interfacesConfig.cmake\n'}
+[18.054637] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/cmake/seabot_interfacesConfig-version.cmake\n'}
+[18.054699] (seabot_interfaces) StdoutLine: {'line': b'-- Installing: /home/bninaos/seabot_interfaces/install/seabot_interfaces/share/seabot_interfaces/package.xml\n'}
+[18.056269] (seabot_interfaces) CommandEnded: {'returncode': 0}
+[18.064024] (-) TimerEvent: {}
+[18.129368] (seabot_interfaces) JobEnded: {'identifier': 'seabot_interfaces', 'rc': 0}
+[18.129837] (-) EventReactorShutdown: {}

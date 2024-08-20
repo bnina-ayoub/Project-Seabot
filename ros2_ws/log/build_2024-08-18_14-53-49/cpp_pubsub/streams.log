@@ -1,0 +1,26 @@
+[0.046s] Invoking command in '/home/bninaos/Documents/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/bninaos/Documents/ros2_ws/install/seabot_interfaces:/home/bninaos/microros/install/micro_ros_setup:/home/bninaos/microros/install/micro_ros_agent:/home/bninaos/microros/install/micro_ros_msgs:/home/bninaos/Documents/ros2_ws/install/cpp_srvcli:/home/bninaos/Documents/ros2_ws/install/cpp_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/bninaos/Documents/ros2_ws/install/seabot_interfaces/lib:/home/bninaos/microros/install/micro_ros_agent/lib:/home/bninaos/microros/install/micro_ros_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/bninaos/Documents/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.254s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.265s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.278s] [ 50%] Built target talker
+[0.285s] [100%] Built target listener
+[0.295s] Invoked command in '/home/bninaos/Documents/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/bninaos/Documents/ros2_ws/install/seabot_interfaces:/home/bninaos/microros/install/micro_ros_setup:/home/bninaos/microros/install/micro_ros_agent:/home/bninaos/microros/install/micro_ros_msgs:/home/bninaos/Documents/ros2_ws/install/cpp_srvcli:/home/bninaos/Documents/ros2_ws/install/cpp_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/bninaos/Documents/ros2_ws/install/seabot_interfaces/lib:/home/bninaos/microros/install/micro_ros_agent/lib:/home/bninaos/microros/install/micro_ros_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/bninaos/Documents/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.318s] Invoking command in '/home/bninaos/Documents/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/bninaos/Documents/ros2_ws/install/seabot_interfaces:/home/bninaos/microros/install/micro_ros_setup:/home/bninaos/microros/install/micro_ros_agent:/home/bninaos/microros/install/micro_ros_msgs:/home/bninaos/Documents/ros2_ws/install/cpp_srvcli:/home/bninaos/Documents/ros2_ws/install/cpp_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/bninaos/Documents/ros2_ws/install/seabot_interfaces/lib:/home/bninaos/microros/install/micro_ros_agent/lib:/home/bninaos/microros/install/micro_ros_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/bninaos/Documents/ros2_ws/build/cpp_pubsub
+[0.365s] -- Install configuration: ""
+[0.427s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[0.455s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[0.455s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[0.455s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[0.455s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[0.455s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[0.455s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[0.455s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[0.455s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[0.455s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[0.455s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[0.455s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[0.455s] -- Installing: /home/bninaos/Documents/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[0.477s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[0.477s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[0.477s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[0.477s] -- Up-to-date: /home/bninaos/Documents/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[0.479s] Invoked command in '/home/bninaos/Documents/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/bninaos/Documents/ros2_ws/install/seabot_interfaces:/home/bninaos/microros/install/micro_ros_setup:/home/bninaos/microros/install/micro_ros_agent:/home/bninaos/microros/install/micro_ros_msgs:/home/bninaos/Documents/ros2_ws/install/cpp_srvcli:/home/bninaos/Documents/ros2_ws/install/cpp_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/bninaos/Documents/ros2_ws/install/seabot_interfaces/lib:/home/bninaos/microros/install/micro_ros_agent/lib:/home/bninaos/microros/install/micro_ros_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/bninaos/Documents/ros2_ws/build/cpp_pubsub

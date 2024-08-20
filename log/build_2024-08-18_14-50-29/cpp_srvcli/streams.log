@@ -1,0 +1,29 @@
+[0.257s] Invoking command in '/home/bninaos/Documents/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/bninaos/Documents/install/seabot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bninaos/Documents/install/seabot_interfaces:/home/bninaos/microros/install/micro_ros_setup:/home/bninaos/microros/install/micro_ros_agent:/home/bninaos/microros/install/micro_ros_msgs:/home/bninaos/Documents/ros2_ws/install/cpp_srvcli:/home/bninaos/Documents/ros2_ws/install/cpp_pubsub:/home/bninaos/Documents/ros2_ws/install/seabot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/bninaos/Documents/install/seabot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bninaos/Documents/install/seabot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bninaos/Documents/build/cpp_srvcli -- -j8 -l8
+[0.538s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.538s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.555s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/Server.cpp.o[0m
+[0.555s] [ 75%] Built target client
+[3.940s] [100%] [32m[1mLinking CXX executable server[0m
+[4.736s] [100%] Built target server
+[4.744s] Invoked command in '/home/bninaos/Documents/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/bninaos/Documents/install/seabot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bninaos/Documents/install/seabot_interfaces:/home/bninaos/microros/install/micro_ros_setup:/home/bninaos/microros/install/micro_ros_agent:/home/bninaos/microros/install/micro_ros_msgs:/home/bninaos/Documents/ros2_ws/install/cpp_srvcli:/home/bninaos/Documents/ros2_ws/install/cpp_pubsub:/home/bninaos/Documents/ros2_ws/install/seabot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/bninaos/Documents/install/seabot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bninaos/Documents/install/seabot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bninaos/Documents/build/cpp_srvcli -- -j8 -l8
+[4.771s] Invoking command in '/home/bninaos/Documents/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/bninaos/Documents/install/seabot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bninaos/Documents/install/seabot_interfaces:/home/bninaos/microros/install/micro_ros_setup:/home/bninaos/microros/install/micro_ros_agent:/home/bninaos/microros/install/micro_ros_msgs:/home/bninaos/Documents/ros2_ws/install/cpp_srvcli:/home/bninaos/Documents/ros2_ws/install/cpp_pubsub:/home/bninaos/Documents/ros2_ws/install/seabot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/bninaos/Documents/install/seabot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bninaos/Documents/install/seabot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bninaos/Documents/build/cpp_srvcli
+[4.803s] -- Install configuration: ""
+[4.815s] -- Installing: /home/bninaos/Documents/install/cpp_srvcli/lib/cpp_srvcli/server
+[4.837s] -- Set runtime path of "/home/bninaos/Documents/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[4.952s] -- Up-to-date: /home/bninaos/Documents/install/cpp_srvcli/lib/cpp_srvcli/client
+[4.953s] -- Up-to-date: /home/bninaos/Documents/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[4.953s] -- Up-to-date: /home/bninaos/Documents/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[4.953s] -- Up-to-date: /home/bninaos/Documents/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[4.953s] -- Up-to-date: /home/bninaos/Documents/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[4.953s] -- Up-to-date: /home/bninaos/Documents/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[4.953s] -- Up-to-date: /home/bninaos/Documents/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[4.953s] -- Up-to-date: /home/bninaos/Documents/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[4.988s] -- Up-to-date: /home/bninaos/Documents/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[4.988s] -- Up-to-date: /home/bninaos/Documents/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[4.989s] -- Up-to-date: /home/bninaos/Documents/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[4.989s] -- Installing: /home/bninaos/Documents/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[4.989s] -- Up-to-date: /home/bninaos/Documents/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[4.989s] -- Up-to-date: /home/bninaos/Documents/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[4.989s] -- Up-to-date: /home/bninaos/Documents/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[4.989s] -- Up-to-date: /home/bninaos/Documents/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[4.992s] Invoked command in '/home/bninaos/Documents/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/bninaos/Documents/install/seabot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bninaos/Documents/install/seabot_interfaces:/home/bninaos/microros/install/micro_ros_setup:/home/bninaos/microros/install/micro_ros_agent:/home/bninaos/microros/install/micro_ros_msgs:/home/bninaos/Documents/ros2_ws/install/cpp_srvcli:/home/bninaos/Documents/ros2_ws/install/cpp_pubsub:/home/bninaos/Documents/ros2_ws/install/seabot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/bninaos/Documents/install/seabot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bninaos/Documents/install/seabot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bninaos/Documents/build/cpp_srvcli

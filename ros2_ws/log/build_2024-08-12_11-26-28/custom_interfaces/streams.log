@@ -1,0 +1,5 @@
+[0.328s] Invoking command in 'D:\seabot internship\project microros\l4_microros\ros2_ws\build\custom_interfaces': C:\Program Files\CMake\bin\cmake.EXE --build D:\seabot internship\project microros\l4_microros\ros2_ws\build\custom_interfaces -- -j8 -l8
+[0.344s] CMake Error: The current CMakeCache.txt directory D:/seabot internship/project microros/l4_microros/ros2_ws/build/custom_interfaces/CMakeCache.txt is different than the directory /home/seabot/ros2_ws/build/custom_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.344s] The system cannot find the file specified
+[0.344s] CMake Error: Generator: execution of make failed. Make command was: /usr/bin/make -j8 -l8 
+[0.359s] Invoked command in 'D:\seabot internship\project microros\l4_microros\ros2_ws\build\custom_interfaces' returned '1': C:\Program Files\CMake\bin\cmake.EXE --build D:\seabot internship\project microros\l4_microros\ros2_ws\build\custom_interfaces -- -j8 -l8

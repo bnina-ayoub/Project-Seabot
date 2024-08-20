@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/seabot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/seabot_interfaces/msg/detail/dds_fastrtps/feedback__type_support.cpp.o"
+  "CMakeFiles/seabot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/seabot_interfaces/msg/detail/dds_fastrtps/feedback__type_support.cpp.o.d"
+  "CMakeFiles/seabot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/seabot_interfaces/msg/detail/dds_fastrtps/sensor_data__type_support.cpp.o"
+  "CMakeFiles/seabot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/seabot_interfaces/msg/detail/dds_fastrtps/sensor_data__type_support.cpp.o.d"
+  "CMakeFiles/seabot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/seabot_interfaces/srv/detail/dds_fastrtps/service__type_support.cpp.o"
+  "CMakeFiles/seabot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/seabot_interfaces/srv/detail/dds_fastrtps/service__type_support.cpp.o.d"
+  "libseabot_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libseabot_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/seabot_interfaces/msg/detail/dds_fastrtps/feedback__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/seabot_interfaces/msg/detail/dds_fastrtps/sensor_data__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/seabot_interfaces/msg/detail/feedback__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/seabot_interfaces/msg/detail/sensor_data__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/seabot_interfaces/srv/detail/dds_fastrtps/service__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/seabot_interfaces/srv/detail/service__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/seabot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,78 @@
+[0.343s] Invoking command in 'D:\seabot internship\project microros\l4_microros\ros2_ws\build\custom_interfaces': C:\Program Files\CMake\bin\cmake.EXE D:\seabot internship\project microros\l4_microros\ros2_ws\src\custom_interfaces -DCMAKE_INSTALL_PREFIX=D:\seabot internship\project microros\l4_microros\ros2_ws\install\custom_interfaces -G Visual Studio 17 2022
+[0.390s] CMake Error: Could not create named generator Visual Studio 17 2022
+[0.390s] 
+[0.390s] Generators
+[0.390s]   Visual Studio 16 2019        = Generates Visual Studio 2019 project files.
+[0.390s]                                  Use -A option to specify architecture.
+[0.390s]   Visual Studio 15 2017 [arch] = Generates Visual Studio 2017 project files.
+[0.390s]                                  Optional [arch] can be "Win64" or "ARM".
+[0.453s]   Visual Studio 14 2015 [arch] = Generates Visual Studio 2015 project files.
+[0.453s]                                  Optional [arch] can be "Win64" or "ARM".
+[0.453s]   Visual Studio 12 2013 [arch] = Generates Visual Studio 2013 project files.
+[0.453s]                                  Optional [arch] can be "Win64" or "ARM".
+[0.546s]   Visual Studio 11 2012 [arch] = Generates Visual Studio 2012 project files.
+[0.546s]                                  Optional [arch] can be "Win64" or "ARM".
+[0.546s]   Visual Studio 10 2010 [arch] = Generates Visual Studio 2010 project files.
+[0.546s]                                  Optional [arch] can be "Win64" or "IA64".
+[0.546s]   Visual Studio 9 2008 [arch]  = Generates Visual Studio 2008 project files.
+[0.546s]                                  Optional [arch] can be "Win64" or "IA64".
+[0.546s]   Borland Makefiles            = Generates Borland makefiles.
+[0.546s] * NMake Makefiles              = Generates NMake makefiles.
+[0.546s]   NMake Makefiles JOM          = Generates JOM makefiles.
+[0.546s]   Green Hills MULTI            = Generates Green Hills MULTI files
+[0.546s]                                  (experimental, work-in-progress).
+[0.546s]   MSYS Makefiles               = Generates MSYS makefiles.
+[0.546s]   MinGW Makefiles              = Generates a make file for use with
+[0.546s]                                  mingw32-make.
+[0.546s]   Unix Makefiles               = Generates standard UNIX makefiles.
+[0.546s]   Ninja                        = Generates build.ninja files.
+[0.546s]   Watcom WMake                 = Generates Watcom WMake makefiles.
+[0.546s]   CodeBlocks - MinGW Makefiles = Generates CodeBlocks project files.
+[0.546s]   CodeBlocks - NMake Makefiles = Generates CodeBlocks project files.
+[0.546s]   CodeBlocks - NMake Makefiles JOM
+[0.546s]                                = Generates CodeBlocks project files.
+[0.546s]   CodeBlocks - Ninja           = Generates CodeBlocks project files.
+[0.546s]   CodeBlocks - Unix Makefiles  = Generates CodeBlocks project files.
+[0.546s]   CodeLite - MinGW Makefiles   = Generates CodeLite project files.
+[0.546s]   CodeLite - NMake Makefiles   = Generates CodeLite project files.
+[0.546s]   CodeLite - Ninja             = Generates CodeLite project files.
+[0.546s]   CodeLite - Unix Makefiles    = Generates CodeLite project files.
+[0.546s]   Sublime Text 2 - MinGW Makefiles
+[0.546s]                                = Generates Sublime Text 2 project files.
+[0.546s]   Sublime Text 2 - NMake Makefiles
+[0.546s]                                = Generates Sublime Text 2 project files.
+[0.546s]   Sublime Text 2 - Ninja       = Generates Sublime Text 2 project files.
+[0.546s]   Sublime Text 2 - Unix Makefiles
+[0.546s]                                = Generates Sublime Text 2 project files.
+[0.546s]   Kate - MinGW Makefiles       = Generates Kate project files.
+[0.546s]   Kate - NMake Makefiles       = Generates Kate project files.
+[0.546s]   Kate - Ninja                 = Generates Kate project files.
+[0.546s]   Kate - Unix Makefiles        = Generates Kate project files.
+[0.546s]   Eclipse CDT4 - NMake Makefiles
+[0.546s]                                = Generates Eclipse CDT 4.0 project files.
+[0.546s]   Eclipse CDT4 - MinGW Makefiles
+[0.546s]                                = Generates Eclipse CDT 4.0 project files.
+[0.546s]   Eclipse CDT4 - Ninja         = Generates Eclipse CDT 4.0 project files.
+[0.546s]   Eclipse CDT4 - Unix Makefiles= Generates Eclipse CDT 4.0 project files.
+[0.546s] 
+[0.546s] Invoked command in 'D:\seabot internship\project microros\l4_microros\ros2_ws\build\custom_interfaces' returned '1': C:\Program Files\CMake\bin\cmake.EXE D:\seabot internship\project microros\l4_microros\ros2_ws\src\custom_interfaces -DCMAKE_INSTALL_PREFIX=D:\seabot internship\project microros\l4_microros\ros2_ws\install\custom_interfaces -G Visual Studio 17 2022
+[0.546s] Traceback (most recent call last):
+  File "C:\Users\oubab\AppData\Local\Programs\Python\Python311\Lib\site-packages\colcon_core\executor\__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oubab\AppData\Local\Programs\Python\Python311\Lib\site-packages\colcon_core\task\__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oubab\AppData\Local\Programs\Python\Python311\Lib\site-packages\colcon_ros\task\ament_cmake\build.py", line 59, in build
+    rc = await extension.build(
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oubab\AppData\Local\Programs\Python\Python311\Lib\site-packages\colcon_cmake\task\cmake\build.py", line 87, in build
+    rc = await self._reconfigure(args, env)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oubab\AppData\Local\Programs\Python\Python311\Lib\site-packages\colcon_cmake\task\cmake\build.py", line 182, in _reconfigure
+    buildfile = get_buildfile(cmake_cache)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oubab\AppData\Local\Programs\Python\Python311\Lib\site-packages\colcon_cmake\task\cmake\__init__.py", line 114, in get_buildfile
+    if 'Visual Studio' in generator:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable

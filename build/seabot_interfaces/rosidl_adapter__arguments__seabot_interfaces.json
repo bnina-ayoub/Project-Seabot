@@ -1,0 +1,8 @@
+{
+  "package_name": "seabot_interfaces",
+  "non_idl_tuples": [
+    "/home/bninaos/Documents/ros2_ws/src/seabot_interfaces:src/msg/Feedback.msg",
+    "/home/bninaos/Documents/ros2_ws/src/seabot_interfaces:src/msg/SensorData.msg",
+    "/home/bninaos/Documents/ros2_ws/src/seabot_interfaces:src/srv/Service.srv"
+  ]
+}

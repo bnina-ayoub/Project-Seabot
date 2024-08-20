@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from seabot_interfaces/src/srv/Service.srv
+// generated code does not contain a copyright notice
+
+
+module seabot_interfaces {
+  module srv {
+    struct Service_Request {
+      string message;
+
+      double value;
+    };
+    struct Service_Response {
+      string feedback;
+    };
+  };
+};

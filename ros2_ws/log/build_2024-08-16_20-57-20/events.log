@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000350] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000382] (-) JobUnselected: {'identifier': 'seabot_interfaces'}
+[0.000414] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict([('seabot_interfaces', '/home/bninaos/Documents/ros2_ws/install/seabot_interfaces')])}
+[0.000934] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.007315] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 1}
+[0.017712] (-) EventReactorShutdown: {}

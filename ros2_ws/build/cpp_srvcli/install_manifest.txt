@@ -1,0 +1,17 @@
+/home/bninaos/Documents/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+/home/bninaos/Documents/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+/home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+/home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+/home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+/home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+/home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+/home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+/home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+/home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+/home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+/home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+/home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+/home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+/home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+/home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+/home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml

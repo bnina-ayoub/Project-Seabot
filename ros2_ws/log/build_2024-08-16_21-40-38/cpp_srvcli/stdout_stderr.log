@@ -1,0 +1,66 @@
+[ 50%] Built target client
+[35m[1mConsolidate compiler generated dependencies of target server[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/server.dir/src/Server.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bninaos/Documents/ros2_ws/src/cpp_srvcli/src/Server.cpp:1[m[K:
+[01m[K/home/bninaos/Documents/ros2_ws/src/cpp_srvcli/src/Server.cpp:[m[K In function ‘[01m[Kvoid send_response(std::shared_ptr<seabot_interfaces::srv::Service_Request_<std::allocator<void> > >, std::shared_ptr<seabot_interfaces::srv::Service_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/bninaos/Documents/ros2_ws/src/cpp_srvcli/src/Server.cpp:10:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kseabot_interfaces::srv::Service_Request_<std::allocator<void> >::_message_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   10 |   RCLCPP_INFO(rclcpp::get_logger("rclcpp"), [01;35m[K"Incoming request\na: %s" " b: %.2f"[m[K,  // CHANGE
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bninaos/Documents/ros2_ws/src/cpp_srvcli/src/Server.cpp:10:68:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   10 |   RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Incoming request\na: [01;36m[K%s[m[K" " b: %.2f",  // CHANGE
+      |                                                                   [01;36m[K~^[m[K
+      |                                                                    [01;36m[K|[m[K
+      |                                                                    [01;36m[Kchar*[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bninaos/Documents/ros2_ws/src/cpp_srvcli/src/Server.cpp:1[m[K:
+[01m[K/home/bninaos/Documents/ros2_ws/src/cpp_srvcli/src/Server.cpp:12:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kseabot_interfaces::srv::Service_Response_<std::allocator<void> >::_feedback_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   12 |   RCLCPP_INFO(rclcpp::get_logger("rclcpp"), [01;35m[K"sending back response: [%s]"[m[K, response->feedback);
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bninaos/Documents/ros2_ws/src/cpp_srvcli/src/Server.cpp:12:71:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   12 |   RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "sending back response: [[01;36m[K%s[m[K]", response->feedback);
+      |                                                                      [01;36m[K~^[m[K
+      |                                                                       [01;36m[K|[m[K
+      |                                                                       [01;36m[Kchar*[m[K
+[100%] [32m[1mLinking CXX executable server[0m
+[100%] Built target server
+-- Install configuration: ""
+-- Installing: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+-- Set runtime path of "/home/bninaos/Documents/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+-- Installing: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+-- Set runtime path of "/home/bninaos/Documents/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+-- Installing: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+-- Installing: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+-- Installing: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+-- Installing: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+-- Installing: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+-- Installing: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+-- Installing: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+-- Installing: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+-- Installing: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+-- Installing: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+-- Installing: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+-- Installing: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+-- Installing: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+-- Installing: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+-- Installing: /home/bninaos/Documents/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml

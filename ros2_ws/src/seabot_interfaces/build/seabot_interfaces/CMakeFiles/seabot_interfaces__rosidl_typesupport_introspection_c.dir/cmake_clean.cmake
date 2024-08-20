@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/seabot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/seabot_interfaces/msg/detail/feedback__type_support.c.o"
+  "CMakeFiles/seabot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/seabot_interfaces/msg/detail/feedback__type_support.c.o.d"
+  "CMakeFiles/seabot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/seabot_interfaces/msg/detail/sensor_data__type_support.c.o"
+  "CMakeFiles/seabot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/seabot_interfaces/msg/detail/sensor_data__type_support.c.o.d"
+  "CMakeFiles/seabot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/seabot_interfaces/srv/detail/service__type_support.c.o"
+  "CMakeFiles/seabot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/seabot_interfaces/srv/detail/service__type_support.c.o.d"
+  "libseabot_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libseabot_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/seabot_interfaces/msg/detail/feedback__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/seabot_interfaces/msg/detail/feedback__type_support.c"
+  "rosidl_typesupport_introspection_c/seabot_interfaces/msg/detail/sensor_data__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/seabot_interfaces/msg/detail/sensor_data__type_support.c"
+  "rosidl_typesupport_introspection_c/seabot_interfaces/srv/detail/service__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/seabot_interfaces/srv/detail/service__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/seabot_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

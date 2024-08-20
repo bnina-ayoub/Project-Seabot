@@ -1,0 +1,4 @@
+source;share/seabot_interfaces/local_setup.bash
+source;share/seabot_interfaces/local_setup.dsv
+source;share/seabot_interfaces/local_setup.sh
+source;share/seabot_interfaces/local_setup.zsh

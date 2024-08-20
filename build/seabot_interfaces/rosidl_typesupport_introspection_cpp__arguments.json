@@ -1,0 +1,23 @@
+{
+  "package_name": "seabot_interfaces",
+  "output_dir": "/home/bninaos/Documents/build/seabot_interfaces/rosidl_typesupport_introspection_cpp/seabot_interfaces",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource",
+  "idl_tuples": [
+    "/home/bninaos/Documents/build/seabot_interfaces/rosidl_adapter/seabot_interfaces:msg/Feedback.idl",
+    "/home/bninaos/Documents/build/seabot_interfaces/rosidl_adapter/seabot_interfaces:msg/SensorData.idl",
+    "/home/bninaos/Documents/build/seabot_interfaces/rosidl_adapter/seabot_interfaces:srv/Service.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/idl__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
+    "/home/bninaos/Documents/build/seabot_interfaces/rosidl_adapter/seabot_interfaces/msg/Feedback.idl",
+    "/home/bninaos/Documents/build/seabot_interfaces/rosidl_adapter/seabot_interfaces/msg/SensorData.idl",
+    "/home/bninaos/Documents/build/seabot_interfaces/rosidl_adapter/seabot_interfaces/srv/Service.idl"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "src\\custom_interfaces\\out\\build\\x64-Debug",
+      "src\\custom_interfaces\\out\\install\\x64-Debug"
+    ],
+    "WSL: Ubuntu": [
+      "src\\custom_interfaces\\out\\build\\x64-Debug",
+      "src\\custom_interfaces\\out\\install\\x64-Debug"
+    ]
+  }
+}

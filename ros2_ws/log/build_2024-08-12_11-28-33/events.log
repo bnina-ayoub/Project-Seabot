@@ -1,0 +1,12 @@
+[0.000000] (-) TimerEvent: {}
+[0.000000] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.015000] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict([('custom_interfaces', 'D:\\seabot internship\\project microros\\l4_microros\\ros2_ws\\install\\custom_interfaces')])}
+[0.015000] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.109000] (-) TimerEvent: {}
+[0.219000] (-) TimerEvent: {}
+[0.312000] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.328000] (-) TimerEvent: {}
+[0.328000] (custom_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n  File "C:\\Users\\oubab\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\colcon_core\\executor\\__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "C:\\Users\\oubab\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\colcon_core\\task\\__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "C:\\Users\\oubab\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\colcon_ros\\task\\ament_cmake\\build.py", line 59, in build\n    rc = await extension.build(\n         ^^^^^^^^^^^^^^^^^^^^^^\n  File "C:\\Users\\oubab\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\colcon_cmake\\task\\cmake\\build.py", line 87, in build\n    rc = await self._reconfigure(args, env)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "C:\\Users\\oubab\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\colcon_cmake\\task\\cmake\\build.py", line 153, in _reconfigure\n    raise RuntimeError(\nRuntimeError: VisualStudioVersion is not set, please run within a Visual Studio Command Prompt.\n'}
+[0.344000] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 1}
+[0.359000] (cpp_pubsub) JobSkipped: {'identifier': 'cpp_pubsub'}
+[0.359000] (-) EventReactorShutdown: {}
